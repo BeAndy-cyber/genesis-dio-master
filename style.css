@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: rgb(208, 255, 239);
+}
+
+.main-game {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius {
+    display: grid;
+    grid-template-areas: 'verde vermelho'
+    'amarelo azul';
+    grid-gap: 10px;
+    background-color: rgb(208, 255, 239);
+    border-radius: 0px 20px 0px;
+    width: 700px;
+    height: 700px;
+}
+
+.blue {
+    grid-area: azul;
+    background-color: #2525a7;
+    border-bottom-right-radius: 100%;
+}
+
+.red {
+    grid-area: vermelho;
+    background-color: #c70000;
+    border-top-right-radius: 100%;
+}
+
+.yellow {
+    grid-area: amarelo;
+    background-color: rgb(209, 209, 0);
+    border-bottom-left-radius: 100%;
+}
+
+.green {
+    grid-area: verde;
+    background-color: #01ad01ec;
+    border-top-left-radius: 100%;
+}
+
+.blue:hover {
+     opacity: 0.8;
+} 
+
+.red:hover {
+    opacity: 0.8;
+}
+
+.yellow:hover {
+    opacity: 0.8;
+} 
+
+.green:hover {
+    opacity: 0.8;
+}
+
+div{
+    animation-name: selected;
+}
+
+.selected {     
+    animation-duration: 1s;
+    animation-name: animacao;
+}
+
+@keyframes animacao{
+    from {opacity: 0;}
+}
+
+
