@@ -1,6 +1,6 @@
 # Oi, tudo bem? Seja bem vindo(a)! 🙃
 
-Esse é o repositório da aula de Javascript da Digital Innovation One, cujo objetivo foi praticar comandos básicos dessa linguagem de programação reproduzindo um simples jogo Gênesis utilizando apenas algumas linhas de código
+Esse é o repositório da aula de Javascript da Digital Innovation One, cujo objetivo foi praticar comandos básicos dessa linguagem de programação reproduzindo um simples jogo Gênesis e utilizando apenas algumas linhas de código
 
 #### Detalhes do jogo
 <ul>
@@ -17,4 +17,4 @@ Esse é o repositório da aula de Javascript da Digital Innovation One, cujo obj
  
 
 
-##  Espero que goste! 
+##  Espero que goste 😊 
